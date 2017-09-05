@@ -31,12 +31,12 @@ $phpmailer->IsSMTP();  // 用smtp协议来发
 
 $phpmailer->Host = 'smtp.qq.com';
 $phpmailer->SMTPAuth = true;
-$phpmailer->Username = 'consulting@faqiw.com';
-$phpmailer->Password = 'faqi123456';
+$phpmailer->Username = '48225405@qq.com';
+$phpmailer->Password = 'xiaoqinqin@0923';
 
 // 可以发信了
 
-$phpmailer->From = 'consulting@faqiw.com';
+$phpmailer->From = '48225405@qq.com';
 $phpmailer->FromName = '网站制作咨询';
 $phpmailer->Subject =  '网站制作咨询';
 $phpmailer->Body = '姓名：'.$_POST["name"].'联系电话：'.$_POST["phone"].'需求：'.$_POST["msg"];
